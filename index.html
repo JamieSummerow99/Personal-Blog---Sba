@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Personal Blog</h1>
+        <p>tell me all your secrets!!</p>
+
+        <section id="new-post-form">
+            <h2>Create a New Post</h2>
+            <form id="post-form">
+                <div class="form-group">
+
+                    <label for="post-title">Title:</label>
+                    <input type="text" id="post-title" name="post-title">
+                    <span class="error-message" id="title-error"></span>
+                </div>
+                <div class="form-group">
+
+                    <label for="post-content">Content:</label>
+                    <textarea id="post-content" name="post-content"></textarea>
+                    <span class="error-message" id="content-error"></span>
+                </div>
+
+                <button type="submit">Publish</button>
+                <input type="hidden" id="post-id" value="">  
+            </form>
+        </section>
+
+        <section id="posts-display">
+            <h2>Blog Posts</h2>
+            <div id="posts-container">
+                <!-- Posts will be dynamically added here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
