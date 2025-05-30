@@ -9,7 +9,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #d996f3;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -50,10 +50,10 @@ textarea {
 }
 
 button {
-    background-color: #c2b7c8;
-    color: rgb(97, 60, 96);
+    background-color: #f6f4f7;
+    color: #000f05;
     padding: 10px 15px;
-    border:1px solid #dbd5e6; 
+    border:1px solid #582caa; 
     border-radius: 4px;
     cursor: pointer;
 }
@@ -77,7 +77,7 @@ button:hover {
 }
 
 .error-message {
-    color: red;
+    color: rgb(61, 29, 179);
     font-size: 0.8em;
     display: block;
     margin-top: 5px;
